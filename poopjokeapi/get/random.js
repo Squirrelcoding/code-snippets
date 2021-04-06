@@ -9,7 +9,7 @@ function axiosTest(options) {
  
 var options = {
   method: 'GET',
-  url: 'https://poopjokes.apis.softsquirrel.tk/byID?key=example&id=<JOKE-ID>'
+  url: 'https://poopjokes.apis.softsquirrel.tk/random?key=example'
 };
 axiosTest(options).then(data => {
 	console.log(data)
